@@ -8,8 +8,8 @@ import ControlCameraIcon from '@mui/icons-material/ControlCamera';
 
 const App = ({ showSearchButton = true }) => {
   const theme = useTheme();
-  const [searchQuery, setSearchQuery] = useState("motivational-quote");
-  const [currentSearch, setCurrentSearch] = useState("motivational-quote");
+  const [searchQuery, setSearchQuery] = useState("quote");
+  const [currentSearch, setCurrentSearch] = useState("quote");
   const [cards, setCards] = useState([]);
   const [lastIndex, setLastIndex] = useState(0);
   const [openCarousel, setOpenCarousel] = useState(false);
